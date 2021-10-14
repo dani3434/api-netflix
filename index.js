@@ -5,7 +5,7 @@ const database = require('./src/services/database');
 const cors = require('cors');
 const app = express();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 const filmeRoutes = require('./src/routes/main.routes');
 const loginRoutes = require('./src/routes/usuarios.routes');
